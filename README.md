@@ -220,12 +220,6 @@ These labels are then assigned back to the original unscaled DataFrame:
 
 `df["Cluster"] = dbscan.fit_predict(coords_scaled)`
 
-A cleaner equivalent would be:
-
-`df["Cluster"] = dbscan.labels_`
-
-since the model was already fitted one line earlier.
-
 ## 8. Visualize DBSCAN results
 
 The custom plotting function converts the DataFrame into a GeoDataFrame, reprojects it into Web Mercator, plots clustered points and noise points separately, and overlays the result on the Canada TIFF basemap.
