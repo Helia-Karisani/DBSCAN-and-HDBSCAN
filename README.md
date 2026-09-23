@@ -321,8 +321,6 @@ To run the notebook successfully, make sure the following are available:
 
 - `DBSCAN-and-HDBSCAN.ipynb`
 - `Canada.tif`
-- `dbscan.png` if you want the DBSCAN figure shown in the README
-- `hdbscan.png` if you want the HDBSCAN figure shown in the README
 
 If `Canada.tif` is not already present, the notebook includes code that downloads and extracts it. But if you are sharing the repository and want the notebook to run smoothly without repeating that step, keeping `Canada.tif` in the project directory is helpful.
 
